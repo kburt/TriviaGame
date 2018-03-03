@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <title>Trivia Game</title>
+        <link rel="stylesheet" href="assets/css/style.css" media="screen"/>
+       <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+       <div class="logo">
+           <img src="assets/images/officetrivia.jpg" alt="The Office Trivia">
+        </div> 
+        
+        <div class="timerDiv">
+            <button class="startTimer" type="button">Click here to start!</button>
+            <br>
+            <br>
+            <span id="a">Time remaining: </span>
+            <span class="displayTimer"></span>
+            <br>
+            <br>
+            <span id="b">Your score: </span>
+            <span class="displayScore"></span>
+        
+        </div>
+        
+        <div class="questions">
+            <p>The manager of Dunder Mifflin Paper Company is Michael Scott.</p>
+            <button value="true" class="bq" data-value="true">True</button>
+            <button value="false" class="bq">False</button>
+            <br>
+            <p>Erin Hannon's first name is Kelly.</p>
+            <button value="true" class="bq">True</button>
+            <button value="false" class="bq">False</button>
+            <br>
+            <p>Dwight and Angela have a son together.</p>
+            <button value="true" class="bq">True</button>
+            <button value="false" class="bq">False</button>
+            <br>
+            <p>Todd Packer becomes the Regional Manager of Dunder Mifflin after Michael leaves.</p>
+            <button value="true" class="bq">True</button>
+            <button value="false" class="bq">False</button>
+            <br>
+            <p>Jim and Pam move to Colorado at the end of the show.</p>
+            <button value="true" class="bq">True</button>
+            <button value="false" class="bq">False</button>
+            <br>
+            <br>
+            <br>
+            <button class="submitButton">Submit!</button>
+      
+        </div>
+    
+    </body>
+</html>
